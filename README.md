@@ -1,2 +1,2 @@
 # jquery
-lib jquery pour mon framework
+librairie jquery pour mon framework

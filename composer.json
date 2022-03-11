@@ -1,0 +1,17 @@
+{
+    "name": "veka-server/jquery",
+    "description": "Une lib JQUERY pour mon framework",
+    "license": "MIT",
+    "keywords": ["minimalist", "jquery", "framework", "js"],
+    "authors": [
+        {
+            "name": "Vanhaezebrouck Nicolas",
+            "email": "contact@veka-server.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VekaServer\\Jquery\\" : "src/php/"
+        }
+    }
+}
