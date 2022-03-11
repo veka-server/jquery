@@ -12,11 +12,11 @@ class Autoload implements PluginInterface
     }
 
     public static function getPathJS():array{
-        return dirname(__DIR__).DIRECTORY_SEPARATOR.'js';
+        return [dirname(__DIR__).DIRECTORY_SEPARATOR.'js'];
     }
 
     public static function getPathCSS():array{
-        return null;
+        return [];
     }
 
 }
