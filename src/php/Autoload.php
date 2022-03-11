@@ -6,7 +6,7 @@ class Autoload
 {
 
     public static function getPathView(){
-        return null;
+        return [];
     }
 
     public static function getPathJS(){
