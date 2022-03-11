@@ -13,5 +13,8 @@
         "psr-4": {
             "VekaServer\\Jquery\\" : "src/php/"
         }
+    },
+    "require": {
+        "veka-server/interfaces": "^0.2"
     }
 }
